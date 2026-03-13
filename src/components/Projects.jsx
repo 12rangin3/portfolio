@@ -6,28 +6,32 @@ function Projects() {
   const [projects] = useState([
     {
       id: 1,
-      title: "Portfolio Website",
-      description: "A responsive portfolio website built with React and Bootstrap, showcasing projects and skills.",
-      tech_stack: "React, Bootstrap, Vite",
-      github_link: "https://github.com/yourusername/portfolio",
-      live_link: "https://yourportfolio.com"
+      title: "Student Event Participation Dashboard",
+      description:
+        "Built a web-based dashboard to track student participation in academic and extracurricular events, providing event registration monitoring, participation statistics, and simple data visualization.",
+      tech_stack: "Html, Bootstrap,Javascript",
+      github_link:
+        "https://github.com/12rangin3/Student-Event-Participation-Dashboard",
+      live_link: "https://student-event-participation-dashboa.vercel.app/",
     },
     {
       id: 2,
-      title: "E-commerce Platform",
-      description: "Full-stack e-commerce application with user authentication, product management, and payment integration.",
-      tech_stack: "React, Node.js, MongoDB, Stripe",
-      github_link: "https://github.com/yourusername/ecommerce",
-      live_link: null
+      title: "Christmas Queze Game",
+      description:
+        "Built a Christmas Quiz web app where users answer festive trivia questions and receive instant scores. The project focuses on interactive UI, quiz logic, and an engaging user experience..",
+      tech_stack: "React, vite, bootstrap, javascript",
+      github_link: "https://github.com/12rangin3/Christmas-Quiz",
+      live_link: "https://christmas-quiz-brown.vercel.app/",
     },
     {
       id: 3,
-      title: "Task Management App",
-      description: "A collaborative task management tool with real-time updates and team features.",
-      tech_stack: "React, Firebase, Material-UI",
-      github_link: "https://github.com/yourusername/taskmanager",
-      live_link: "https://taskmanager-demo.com"
-    }
+      title: "Weather app",
+      description:
+        "Built a Weather Forecast web application that allows users to search for any city and view real-time weather details such as temperature, humidity, and conditions using an external API.",
+      tech_stack: "React, Bootstrap, Html",
+      github_link: "https://github.com/12rangin3/Weather-App",
+      live_link: "https://weather-app-seven-blush-24.vercel.app/",
+    },
   ]);
 
   return (
