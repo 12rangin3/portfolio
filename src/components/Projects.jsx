@@ -16,7 +16,7 @@ function Projects() {
     },
     {
       id: 2,
-      title: "Christmas Queze Game",
+      title: "Christmas Quiz Game",
       description:
         "Built a Christmas Quiz web app where users answer festive trivia questions and receive instant scores. The project focuses on interactive UI, quiz logic, and an engaging user experience..",
       tech_stack: "React, vite, bootstrap, javascript",
